@@ -1,0 +1,35 @@
+.team {
+    padding: 62px 0;
+    background-color: #F3603C;
+    background-repeat: no-repeat;
+    background-image: url('../../img/team_bg.svg'),;
+    background-position: left;
+    
+    &__block{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        width: 445px;
+        color: #FFF;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: -0.714px;
+    }
+
+    &__btn {
+        display: inline-block;
+        color: #F3603C;
+        font-size: 13px;
+        font-weight: 700;
+        border-radius:30px;
+        background-color: #fff;
+        padding: 12px 32px 13px 32px;
+        &:hover{
+            color: #F8AF9D;
+        }
+    }
+}
